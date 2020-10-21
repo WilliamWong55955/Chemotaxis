@@ -1,4 +1,4 @@
-//declare bacteria variables here  
+
  int xX, yY = 0;
  Bacteria[] Wilbert;
  void setup()   
@@ -9,7 +9,7 @@
   for(int i = 0; i<Wilbert.length;i++){
     Wilbert[i] = new Bacteria();
   }
-   //initialize bacteria variables here   
+  
  }  
  void mousePressed()
  {
@@ -22,7 +22,7 @@
      Wilbert[a].move();
      Wilbert[a].show();
    }
-   //move and show the bacteria   
+ 
  }  
  class Bacteria    
  {   
@@ -42,5 +42,5 @@
      fill(a);
      ellipse(xX, yY, size, size);   
    }
-   //lots of java!   
+  
  }
